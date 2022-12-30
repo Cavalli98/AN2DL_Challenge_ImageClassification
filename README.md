@@ -9,7 +9,7 @@ This model let us win the challenge, reaching an accuracy of 95.48 ([Results](ht
 
 ## Model details
 
-For more details about the model check the [Report](). Briefly, we used the following techniques:
+For more details about the model check the [Report](https://github.com/Cavalli98/AN2DL_Challenge_ImageClassification/blob/main/report/Report.pdf). Briefly, we used the following techniques:
 * Transfer Learning with ConvNeXtLarge model with the "Weight Initialization" technique: the whole model was trained, in two phases. First, only the classification top with an high learning rate and then the whole model with a low learning rate.
 * CutMix and MixUp data augmentation techniques: one or the other technique was applied to each input image
 * Standard data augmentation (flip, rotate, zoom)
